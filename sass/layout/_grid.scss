@@ -1,0 +1,63 @@
+// .row {
+//   max-width: $grid-width;
+//   background-color: #eee;
+//   margin: 0 auto;
+
+//   &:not(:last-child) {
+//     margin-bottom: $gutter-vertical;
+//   }
+
+//   .col-1-of-2 {
+//     width: ;
+//   }
+// }
+
+.grid {
+  max-width: $grid-width;
+  margin: 0 auto;
+  display: grid;
+  gap: $gutter-vertical;
+
+  @include respond(tab-port) {
+    gap: 0;
+    row-gap: $gutter-vertical-small;
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+
+  @include respond(tab-port) {
+    grid-template-columns: 1fr !important;
+  }
+
+  &--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .coll-2-of-3 {
+    grid-column: 2/4;
+  }
+
+  .coll-2-of-4 {
+    grid-column: 3/5;
+  }
+
+  .coll-3-of-4 {
+    grid-column: 2/5;
+  }
+}
