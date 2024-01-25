@@ -12,9 +12,9 @@ You can view the project live here: <a href="https://natours-dusan.netlify.app" 
 
 - [Arhitecture](#-arhitecture)
 
-- [Technologies Used](#technologies-used)
+- [Technologies Used](#-technologies-used)
 
-- [Installations and Tests](#installations-and-tests)
+- [Installations and Tests](#-installations-and-tests)
 
 ## 📝 Description
 
@@ -35,6 +35,8 @@ A company specialized in organizing and offering adventure tours for people who 
 - <b>Responsive Images:</b> Handling responsive images in HTML and CSS.
 
 - <b>Final Considerations:</b> Wrap up the Natours project with insights and best practices.
+
+[Back To The Top](#natours)
 
 ### 🏛️ Arhitecture
 
@@ -87,6 +89,8 @@ sass/
     </a>
 </p>
 
+[Back To The Top](#natours)
+
 ## 💻 Installations and Tests
 
 To install dependencies, run these commands
@@ -107,3 +111,5 @@ For additional questions, contact me at the email provided below.
 
 - GitHub [Djarma12](httpsgithub.comDjarma12)
 - Email madjardusan@gmail.com
+
+[Back To The Top](#natours)
