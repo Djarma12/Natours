@@ -109,7 +109,7 @@ npm run start
 
 For additional questions, contact me at the email provided below.
 
-- GitHub [Djarma12](httpsgithub.comDjarma12)
+- GitHub [Dusan Madjar](https://github.com/Djarma12)
 - Email madjardusan@gmail.com
 
 [Back To The Top](#natours)
