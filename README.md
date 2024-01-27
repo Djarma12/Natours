@@ -1,6 +1,6 @@
 # Natours
 
-![Nexter](img/App-Layout.png)
+![Nexter](img/App-Layout.webp)
 
 You can view the project live here: <a href="https://natours-dusan.netlify.app" target="_blank">Natours</a>
 
